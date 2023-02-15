@@ -1,0 +1,28 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 10;
+  width: 100%;
+  padding: 30px;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+h2,
+p {
+  background-color: #f2f2f2sdc;
+  text-align: center;
+}
+.class {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
